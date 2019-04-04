@@ -3,6 +3,7 @@
       <section class="section">
         <h1 class="name">Jessica Sachs</h1>
         <h2 class="job">Staff Engineer @ Intent</h2>
+        <h3>Cambridge, MA</h3>
         <p>A caffeine-based lifeform, circus nerd, VueJS afficionado, and VueVixen.</p>
         <p>⚠️ Site under construction</p>
         <section>
@@ -46,10 +47,6 @@ export default {
     font-weight: 700;
   }
 
-
-
-
-
   .section {
     margin: 0 auto;
 }
@@ -80,7 +77,7 @@ export default {
 }
 
 h1, h2, h3, h4, h5, h6, span {
-  margin: 0;
+  margin: 1rem 0;
 }
 
 html, body {
@@ -91,13 +88,20 @@ html, body {
 
   @media only screen and (max-width: 812px) {
     body {
-      margin: 16px;
+      margin: 0 16px;
+    }
+  }
+
+  @media only screen and (min-width: 812px) {
+    body {
+      width: 800px;
+      margin: 0 auto;
     }
   }
 
 #app {
     /*width: 800px;*/
-    margin: 100px auto 0 auto;
+  margin: 0 auto 0 auto;
   text-align: left;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,
   Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
