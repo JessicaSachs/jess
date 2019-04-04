@@ -7,8 +7,10 @@
         <p>⚠️ Site under construction</p>
         <section>
           <h3>Links</h3>
-          <a href="https://twitter.com/_jessicasachs">Twitter is @_jessicasachs</a>
-          <a href="mailto:jess+web@jessicasachs.io">Email</a>
+          <ul>
+            <li><a href="https://twitter.com/_jessicasachs">@_jessicasachs</a></li>
+            <li><a href="mailto:jess+web@jessicasachs.io?subject=Hey, Jess!">Email</a></li>
+          </ul>
         </section>
 
 
